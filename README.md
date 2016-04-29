@@ -1,3 +1,3 @@
-# Rinat Mukhrarov's CV
+# Rinat Mukhtarov's CV
 
 Uses Bootstrap template
