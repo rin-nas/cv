@@ -150,36 +150,36 @@
 	</head>
 	<body data-spy="scroll" data-target="#spy-nav" data-offset="30">
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter37293615 = new Ya.Metrika({
-                    id:37293615,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true,
-                    trackHash:true
-                });
-            } catch(e) { }
-        });
+		<!-- Yandex.Metrika counter -->
+		<script type="text/javascript">
+			(function (d, w, c) {
+				(w[c] = w[c] || []).push(function() {
+					try {
+						w.yaCounter37293615 = new Ya.Metrika({
+							id:37293615,
+							clickmap:true,
+							trackLinks:true,
+							accurateTrackBounce:true,
+							webvisor:true,
+							trackHash:true
+						});
+					} catch(e) { }
+				});
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
+				var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/37293615" style="position:absolute; left:-9999px;" alt=""></div></noscript>
-<!-- /Yandex.Metrika counter -->
+				if (w.opera == "[object Opera]") {
+					d.addEventListener("DOMContentLoaded", f, false);
+				} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+		</script>
+		<noscript><div><img src="https://mc.yandex.ru/watch/37293615" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+		<!-- /Yandex.Metrika counter -->
 	
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
@@ -194,20 +194,31 @@
 					<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-briefcase"></span>Резюме</a>
 				</div>
 
+				<!--
+				<div class="btn-group navbar-right" data-toggle="buttons">
+					<label class="btn btn-primary active">
+						<input type="radio" name="options" id="option1" autocomplete="off" checked> Русский
+					</label>
+					<label class="btn btn-primary">
+						<input type="radio" name="options" id="option2" autocomplete="off">English
+					</label>
+				</div>
+				-->
+				
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="spy-nav">
 					<ul class="nav navbar-nav">
 						<li class="dropdown">
-							<a href="#general" class="dropdown-toggle" data-toggle="dropdown">Общая информация <span class="caret"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Общая информация <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Специализация</a></li>
-								<li><a href="#">Цели</a></li>
-								<li><a href="#">Причины поиска работы</a></li>
-								<li><a href="#">Профессиональные навыки</a></li>
+								<li><a href="#specialization">Специализация</a></li>
+								<li><a href="#goals">Цели</a></li>
+								<li><a href="#reasons">Причины поиска работы</a></li>
+								<li><a href="#skills">Профессиональные навыки</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#history" class="dropdown-toggle" data-toggle="dropdown">Опыт работы <span class="caret"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Опыт работы <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="#krawlly">2015-11 — н.время. <strong>Кроулли</strong>, менеджер продукта, аналитик требований</a></li>
 								<li><a href="#leader2">2014-12 — 2015-10. <strong>НКО Лидер</strong>, менеджер проектов, аналитик требований</a></li>
@@ -228,6 +239,7 @@
 						<li><a href="#education">Образование</a></li>
 					</ul>
 				</div>
+				
 			</div>
 		</nav>
 
