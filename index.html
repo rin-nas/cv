@@ -197,9 +197,17 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="spy-nav">
 					<ul class="nav navbar-nav">
-						<li><a href="#general">Общая информация</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Опыт работы <span class="caret"></span></a>
+							<a href="#general" class="dropdown-toggle" data-toggle="dropdown">Общая информация <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Специализация</a></li>
+								<li><a href="#">Цели</a></li>
+								<li><a href="#">Причины поиска работы</a></li>
+								<li><a href="#">Профессиональные навыки</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#history" class="dropdown-toggle" data-toggle="dropdown">Опыт работы <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="#krawlly">2015-11 — н.время. <strong>Кроулли</strong>, менеджер продукта, аналитик требований</a></li>
 								<li><a href="#leader2">2014-12 — 2015-10. <strong>НКО Лидер</strong>, менеджер проектов, аналитик требований</a></li>
@@ -296,7 +304,7 @@
 
 			<div class="row">
   				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-  					<h3><span class="glyphicon glyphicon-flag"></span>Специализация</h3>
+  					<h3 id="specialization"><span class="glyphicon glyphicon-flag"></span>Специализация</h3>
 					<ul>
 						<li>Разработка и развитие сложного и нагруженного <abbr title="программное обеспечение">ПО</abbr> на базе <span class="text-nowrap">веб-технологий</span><!-- для B2B, B2C и внутрикорпоративное--></li>
 						<li>Сферы бизнеса — финансы, интернет-<abbr title="средство массовой информации">СМИ</abbr>, электронная коммерция и др.</li>
@@ -313,7 +321,7 @@
   				</div>
 
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<h3><span class="glyphicon glyphicon-screenshot"></span>Цели</h3>
+					<h3 id="goals"><span class="glyphicon glyphicon-screenshot"></span>Цели</h3>
 					<ul>
 						<li>Создание успешных инновационных продуктов с качественным контентом и сервисами</li>
 						<li>Долгосрочное сотрудничество</li>
@@ -325,7 +333,7 @@
 				</div>
 			</div>
 
-			<h3><span class="glyphicon glyphicon-search"></span>Причины поиска работы</h3>
+			<h3 id="reasons"><span class="glyphicon glyphicon-search"></span>Причины поиска работы</h3>
 
 			<ul>
 				<li>Стремление к профессиональному росту, расширение сферы применения своих знаний и умений, 
@@ -333,9 +341,9 @@
 				<li>Финансовая стабильность, увеличение з/пл</li>
 			</ul>
 
-			<h3><span class="glyphicon glyphicon-cog"></span>Профессиональные навыки</h3>
+			<h3 id="skills"><span class="glyphicon glyphicon-cog"></span>Профессиональные навыки</h3>
 
-			<ol id="Skills" style="display:block">
+			<ol>
 				<li>Умение превращать цели и задачи компании в продуманные IT решения</li>
 				<li>Запуск IT-проектов с нуля, аудит и развитие существующих</li>
 				<li>Умение говорить на одном языке с бизнес и техническими подразделениями работодателя и партнёров, нахождение компромиссов</li>
