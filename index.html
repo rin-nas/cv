@@ -1184,12 +1184,12 @@
 						<p>Достижения</p>
 						<ol>
 							<li>Участвовал в разработке нового кода на базе PHP/Yii</li>
-							<li>Оптимизировал используемые технологии (заменил Apache на php-fpm)</li>
-							<li>Решил проблему «тормозов» сайта под пиковыми нагрузками кэшом Nginx</li>
+							<li>Оптимизировал используемые технологии (заменил Nginx-front и Apache-back+mod_php на Nginx-front и php-fpm)</li>
+							<li>Решил проблему «тормозов» сайта под пиковыми нагрузками (кэшом Nginx)</li>
 							<li>Решил проблему «тормозов» сайта из-за медленной загрузки сторонних сервисов (используя <abbr title="Asynchronous Javascript and XML">AJAX</abbr>)</li>
 							<li>Навёл порядок в структуре базы данных (<abbr title="Entity-relationship model">ERM</abbr>)<!-- триггеры для миграции данных между таблицами-->, мигрировал Mysql с 5.0 на 5.5</li>
 							<li>Оптимизировал индексацию сайта поисковиками (SEO), поднял ТИЦ и позиции в результатах поиска</li>
-							<li>Ускорил развёртывание программного кода по серверам (deployment) с 30 мин до 1,5 минуты без приостановки работы редакции</li>
+							<li>Ускорил развёртывание программного кода по серверам (deployment) с 30 мин до 1,5 минуты без приостановки работы редакции!</li>
 							<li>Сделал авторизацию через учётные записи социальных сетей</li>
 							<li>Увеличил глубину просмотров сайта и открутку рекламы <!--например, перезагрузка счётчиков и баннеров в фотогалерее--></li>
 							<li>Сделал правильный механизм работы внутреннего счётчика посетителей/посещений новостей <!--1x1.gif--></li>
@@ -1254,6 +1254,161 @@
 								В итоге, не делая лишнего, всегда сдавал результаты досрочно и в наилучшем качестве.»
 							</li>
 						</ul>
+					</li>
+					<li class="list-group-item hidden-print">
+						<h4>Семантический поисковый механизм</h4>
+						
+						<p>
+							Look4shop – навигатор покупок по магазинам и <abbr title="Торговый Центр">ТЦ</abbr>, в настоящее время проект закрыт.
+							В рамках этого проекта был сделан интеллектуальный поисковый механизм.
+						</p>
+
+						<div class="row">
+							<div class="col-xs-6 col-sm-6 col-md-3">
+								<a href="#" class="thumbnail" data-toggle="modal" data-target="#look4shop_1" title="Результат поиска по запросу «Hugo Boss мужская одежда Киевская». Для выполнения поиска производится семантический анализ и определение сущностей. При сортировке по релевантности учитывается «важность» каждой сущности. Так, на первых двух позициях показаны фирменные магазины Hugo Boss, а на третьей – «Микродин», который тоже продаёт товары этой торговой марки.">
+									<img src="img/look4shop/1.png" alt="">
+								</a>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-3">
+								<a href="#" class="thumbnail" data-toggle="modal" data-target="#look4shop_2" title="Ошибки в поисковом запросе исправляются автоматически (см. название ТЦ)">
+									<img src="img/look4shop/2.png" alt="">
+								</a>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-3">
+								<a href="#" class="thumbnail" data-toggle="modal" data-target="#look4shop_3" title="Возможен неполный ввод названий сущностей (см. название станции метро)">
+									<img src="img/look4shop/3.png" alt="">
+								</a>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-3">
+								<a href="#" class="thumbnail" data-toggle="modal" data-target="#look4shop_4" title="Поисковый алгоритм справляется с неоднозначными и неполными запросами. Возможен ввод названий латинскими или русскими буквами, транслитерация делается автоматически.">
+									<img src="img/look4shop/4.png" alt="">
+								</a>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-3">
+								<a href="#" class="thumbnail" data-toggle="modal" data-target="#look4shop_5" title="Если по исходному запросу ничего не найдено, производится автоматическое упрощение исходного запроса и новый поиск. Причём отбрасывается наименее важная сущность по смыслу (см. станцию метро).">
+									<img src="img/look4shop/5.png" alt="">
+								</a>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-3">
+								<a href="#" class="thumbnail" data-toggle="modal" data-target="#look4shop_6" title="Исправление клавиатурной опечатки и транслитерация, упрощение исходного запроса и новый поиск.">
+									<img src="img/look4shop/6.png" alt="">
+								</a>
+							</div>
+						</div>
+						
+						<div class="modal fade" id="look4shop_1" tabindex="-1" role="dialog" aria-labelledby="">
+						  <div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Результат поиска по запросу «Hugo Boss мужская одежда Киевская»</h4>
+							  </div>
+							  <div class="modal-body">
+								<img src="img/look4shop/1.png" class="img-responsive center-block">
+								<p>Для выполнения поиска производится семантический анализ и определение сущностей.
+									При сортировке по релевантности учитывается «важность» каждой сущности. 
+									Так, на первых двух позициях показаны фирменные магазины Hugo Boss, а на третьей&nbsp;– «Микродин», 
+									который тоже продаёт товары этой торговой марки.</p>
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+							  </div>
+							</div>
+						  </div>
+						</div>						
+						
+						<div class="modal fade" id="look4shop_2" tabindex="-1" role="dialog" aria-labelledby="">
+						  <div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Ошибки в поисковом запросе исправляются автоматически (см. название ТЦ)</h4>
+							  </div>
+							  <div class="modal-body">
+								<img src="img/look4shop/2.png" class="img-responsive center-block">
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+							  </div>
+							</div>
+						  </div>
+						</div>						
+						
+						<div class="modal fade" id="look4shop_3" tabindex="-1" role="dialog" aria-labelledby="">
+						  <div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Возможен неполный ввод названий сущностей (см. название станции метро)</h4>
+							  </div>
+							  <div class="modal-body">
+								<img src="img/look4shop/3.png" class="img-responsive center-block">
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+							  </div>
+							</div>
+						  </div>
+						</div>						
+						
+						<div class="modal fade" id="look4shop_4" tabindex="-1" role="dialog" aria-labelledby="">
+						  <div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">
+									Поисковый алгоритм справляется с неоднозначными и неполными запросами.
+									Возможен ввод названий латинскими или русскими буквами, транслитерация делается автоматически.
+								</h4>
+							  </div>
+							  <div class="modal-body">
+								<img src="img/look4shop/4.png" class="img-responsive center-block">
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+							  </div>
+							</div>
+						  </div>
+						</div>						
+						
+						<div class="modal fade" id="look4shop_5" tabindex="-1" role="dialog" aria-labelledby="">
+						  <div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">
+									Если по исходному запросу ничего не найдено, производится автоматическое упрощение исходного запроса и новый поиск. 
+									Причём отбрасывается наименее важная сущность по смыслу (см. станцию метро).
+								</h4>
+							  </div>
+							  <div class="modal-body">
+								<img src="img/look4shop/5.png" class="img-responsive center-block">
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+							  </div>
+							</div>
+						  </div>
+						</div>						
+						
+						<div class="modal fade" id="look4shop_6" tabindex="-1" role="dialog" aria-labelledby="">
+						  <div class="modal-dialog modal-lg" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Исправление клавиатурной опечатки и транслитерация, упрощение исходного запроса и новый поиск.</h4>
+							  </div>
+							  <div class="modal-body">
+								<img src="img/look4shop/6.png" class="img-responsive center-block">
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+							  </div>
+							</div>
+						  </div>
+						</div>						
+						
+						
 					</li>
 				</ul>
 			</div>
