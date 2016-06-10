@@ -1,9 +1,13 @@
 # Полезные ссылки
 
-## Системный и бизнес анализ
+## Он-лайн обучение
 
 1. `http://www.intuit.ru/studies/courses/2190/237/info` -- Методы и средства инженерии программного обеспечения
 1. `http://www.intuit.ru/studies/professional_retraining/945/courses/174/info` -- Анализ требований к автоматизированным информационным системам
+
+## Системный и бизнес анализ
+
+1. `http://analyst.by/`
 1. `http://www.slideshare.net/IvanShamaev/babok-v20-30704488` -- Babok v2.0 перевод на русский язык свод знаний по бизнес анализу
 1. `http://www.slideshare.net/IvanShamaev/ss-35131040` -- Управление требованиями. Обзорный курс для начинающих бизнес-аналитиков
 1. `http://impeltech.ru/informatiorium-vse-o-avtobatizacii-bpm-i-bpms` -- Cтатьи на человеческом языке про BPMS, автоматизацию и управление бизнес-процессами
