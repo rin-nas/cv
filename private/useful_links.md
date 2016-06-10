@@ -12,3 +12,4 @@
 
 1. `http://www.hr-portal.ru/`
 1. `https://hh.ru/article/301514?from=article_308505` — 10 вещей, которые не надо писать в сопроводительном письме
+1. `http://www.vedomosti.ru/management/blogs/2016/06/07/643918-vi-ischete-rabotu-dolshe-treh-mesyatsev` 
