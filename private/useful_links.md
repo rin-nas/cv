@@ -2,10 +2,10 @@
 
 ## Системный и бизнес анализ
 
-`http://www.intuit.ru/studies/courses/2190/237/info` -- Методы и средства инженерии программного обеспечения
-`http://www.intuit.ru/studies/professional_retraining/945/courses/174/info` -- Анализ требований к автоматизированным информационным системам
-`http://www.slideshare.net/IvanShamaev/babok-v20-30704488` -- Babok v2.0 перевод на русский язык свод знаний по бизнес анализу
-`http://impeltech.ru/informatiorium-vse-o-avtobatizacii-bpm-i-bpms` -- Cтатьи на человеческом языке про BPMS, автоматизацию и управление бизнес-процессами
+1. `http://www.intuit.ru/studies/courses/2190/237/info` -- Методы и средства инженерии программного обеспечения
+1. `http://www.intuit.ru/studies/professional_retraining/945/courses/174/info` -- Анализ требований к автоматизированным информационным системам
+1. `http://www.slideshare.net/IvanShamaev/babok-v20-30704488` -- Babok v2.0 перевод на русский язык свод знаний по бизнес анализу
+1. `http://impeltech.ru/informatiorium-vse-o-avtobatizacii-bpm-i-bpms` -- Cтатьи на человеческом языке про BPMS, автоматизацию и управление бизнес-процессами
 
 ## Поиск работы
 
