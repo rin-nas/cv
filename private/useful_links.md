@@ -13,6 +13,7 @@
 1. `http://www.slideshare.net/IvanShamaev/ss-35131040` -- Управление требованиями. Обзорный курс для начинающих бизнес-аналитиков
 1. `http://www.slideshare.net/andrewkuryan/ss-38188219` -- ТРИЗ. Применение в бизнес-анализе
 1. `http://impeltech.ru/informatiorium-vse-o-avtobatizacii-bpm-i-bpms` -- Cтатьи на человеческом языке про BPMS, автоматизацию и управление бизнес-процессами
+1. `http://analyst.by/articles/vvedenie-v-biznes-protsessyi-chast-1` -- Введение в бизнес-процессы. Часть 1
 
 ## Поиск работы
 
