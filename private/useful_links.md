@@ -8,6 +8,7 @@
 ## Системный и бизнес анализ
 
 1. `http://analyst.by/`
+1. `http://www.slideshare.net/andrewkuryan/ss-38188219` -- ТРИЗ. Применение в бизнес-анализе
 1. `http://www.slideshare.net/IvanShamaev/babok-v20-30704488` -- Babok v2.0 перевод на русский язык свод знаний по бизнес анализу
 1. `http://www.slideshare.net/IvanShamaev/ss-35131040` -- Управление требованиями. Обзорный курс для начинающих бизнес-аналитиков
 1. `http://www.slideshare.net/andrewkuryan/ss-38188219` -- ТРИЗ. Применение в бизнес-анализе
