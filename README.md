@@ -1,3 +1,3 @@
 # Rinat Mukhtarov's CV
 
-Uses Bootstrap template, http://getbootstrap.com/
+<big>https://rin-nas.github.io/cv/</big>
