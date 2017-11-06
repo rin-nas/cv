@@ -152,10 +152,14 @@
 		<![endif]-->
 		<script>
 			function getAge(y, m, d) {
-				var birth = new Date(+y, +m - 1, +d),
-					today = new Date();
-                var diff = today.getTime() - birth.getTime();
-                return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
+				var birthDate = new Date(+y, +m - 1, +d),
+					todayDate = new Date();
+                var years = (todayDate.getFullYear() - birthDate.getFullYear());
+                if (todayDate.getMonth() < birthDate.getMonth() ||
+                    todayDate.getMonth() == birthDate.getMonth() && todayDate.getDate() < birthDate.getDate()) {
+                    years--;
+                }
+                return years;
 			}
 			function declOfNum(number, titles) {  
 				var cases = [2, 0, 1, 1, 1, 2];
