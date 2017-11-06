@@ -152,10 +152,10 @@
 		<![endif]-->
 		<script>
 			function getAge(y, m, d) {
-				var birth = new Date(y, m - 1, d);
-				var year = birth.getFullYear() + 1;
-				var today = new Date();
-				return today.getFullYear() - year - (today.getTime() < birth.setFullYear(year));
+				var birth = new Date(+y, +m - 1, +d),
+					today = new Date();
+                var diff = today.getTime() - birth.getTime();
+                return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
 			}
 			function declOfNum(number, titles) {  
 				var cases = [2, 0, 1, 1, 1, 2];
@@ -418,7 +418,8 @@
 				<li>Разработка ПО короткими итерациями. Ориентация на бизнес-задачи. Постановка и распределение задач в&nbsp;отделе, контроль выполнения, оценка результатов. Наставничество. Участие в оценке новых проектов.</li>
 				<li>
 					Выполнение всех работ, связанных с разработкой: планирование задач, сбор и анализ требований, проектирование, программирование, тестирование, документирование.
-					Принципы <span class="nobr">веб-разработки</span>&nbsp;— надёжность, продуманность, высокая производительность, безопасность. <a href="https://github.com/rin-nas?tab=repositories" class="hidden-print">Посмотреть примеры исходного кода</a>
+					Принципы <span class="nobr">веб-разработки</span>&nbsp;— надёжность, продуманность, безопасность, покрытие тестами и документацией.
+					<a href="https://github.com/rin-nas?tab=repositories" class="hidden-print">Посмотреть примеры исходного кода</a>
 				</li>
 				<li>Опыт разработки конверторов и парсеров структур данных, парсеров текстов на естественном языке. Морфология, автоисправление опечаток, автотипографика, антиспам, антифлуд, антимат<!--, ёфикатор-->.</li>
 				<li>
@@ -495,7 +496,7 @@
 				</div>
 				<div class="panel-body">
 					<p>
-						«РДВ-Софт» — IT компания в составе холдинга <a href="http://www.rdwmedia.ru/" class="text-nowrap">«РДВ-Медиа»</a>,
+						«РДВ-Софт» — IT компания в холдинге <a href="http://www.rdwmedia.ru/" class="text-nowrap">«РДВ-Медиа»</a>,
 						владеющего порталом трудоустройства <a href="https://www.rabota.ru/" class="text-nowrap"><strong>«Работа.Ру»</strong></a>,
 						образования <a href="https://www.ucheba.ru/" class="text-nowrap">«Учёба.Ру»</a> и развлечения <a href="https://www.vashdosug.ru/" class="text-nowrap">«Ваш досуг»</a>.
 					</p>
@@ -531,11 +532,17 @@
 					<li class="list-group-item">
 						<h4>Достижения</h4>
 						<ol>
-							<li>Перевёл базу знаний проекта «Работа.Ру» с MediaWiki на Confluence.</li>
-							<li>Сделал ПО для скачивания страницы по заданному URL и сохранения содержимого в файлы (формат <span class="text-nowrap">DOM HTML</span> и Markdown).
-								Авторизация по <span class="text-nowrap">id пользователя</span> и паролю поддерживается.</li>
-							<li>Сделал ПО для извлечения именованных сущностей из резюме (ФИО, телефон, email, дата рождения, город, должность, зарплата, места работы и т.д.). На входе Markdown, на выходе JSON.</li>
+							<li>
+								Сделал <a href="files/rabota.ru/import.txt" title="посмотреть параметры командной строки">ПО</a> для скачивания страницы по заданному URL и сохранения содержимого в файлы (формат <span class="text-nowrap">DOM HTML</span> и <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a>).
+								Авторизация по <span class="text-nowrap">id пользователя</span> и паролю поддерживается.
+								[<a href="files/rabota.ru/README.md">документация</a>]</li>
+							<li>
+								Сделал <a href="files/rabota.ru/extract.txt" title="посмотреть параметры командной строки">ПО</a> для извлечения именованных сущностей из резюме (ФИО, телефон, email, дата рождения, город, должность, зарплата, места работы и т.д.).
+								На входе Markdown, на выходе JSON.
+								[<a href="files/rabota.ru/README.md">документация</a>]</li>
+							</li>
 							<li>На <a href="https://www.rabota.ru/resume/create/">странице создания резюме</a> сделал загрузку (импорт) резюме с других сайтов по ссылке (url).</li>
+							<li>Перевёл <a href="https://wiki.rabota.space/">базу знаний</a> проекта «Работа.Ру» с Media'Wiki на Confluence.</li>
 						</ol>
 					</li>
 				</ul>
