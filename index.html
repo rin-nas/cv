@@ -231,10 +231,9 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Общая информация <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="#specialization">Специализация</a></li>
 								<li><a href="#goals">Цели</a></li>
-								<!--<li><a href="#reasons">Причины поиска работы</a></li>-->
-								<li><a href="#skills">Профессиональные навыки</a></li>
+                                <li><a href="#favorites">Профессиональные интересы</a></li>
+                                <li><a href="#skills">Профессиональные навыки</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -288,11 +287,12 @@
 					</div>
 
 					<p class="text-success" title="Рабочее кредо">Работаю на результат со&nbsp;знаком плюс!</p>
-					<p>
+
+					<p class="hidden">
 						<span class="glyphicon glyphicon-download" style="color: #aaa;" title="Скачать" data-toggle="tooltip"></span>
-						<a href="files/TechnicalRequirementsExamples_RinatMukhtarov.zip" 
-						   class="hidden-print" 
-						   onClick="alert('Пароль от архива: \x57\x65\x6c\x63\x6f\x6d\x65&#92;&#120;&#50;&#49;')" 
+						<a href="files/TechnicalRequirementsExamples_RinatMukhtarov.zip"
+						   class="hidden-print"
+						   onClick="alert('Пароль от архива: \x57\x65\x6c\x63\x6f\x6d\x65&#92;&#120;&#50;&#49;')"
 						   style="position: absolute; margin: 0 7px 0 7px;">Скачать примеры ТЗ <span class="text-nowrap">(zip, 1.6 MB)</span></a>
 					</p>
   				</div>
@@ -335,14 +335,14 @@
 						<dt><span class="glyphicon glyphicon-console" title="Исходный код ПО" data-toggle="tooltip"></span></dt>
 						<dd><a href="https://github.com/rin-nas?tab=repositories">GitHub.com/rin-nas</a></dd>
 						
-						<dt><span class="glyphicon glyphicon-link" title="Ссылки на профили в соцсетях" data-toggle="tooltip"></span></dt>
-						<dd><a href="https://ru.linkedin.com/in/mrinat">LinkedIn</a>, <a href="https://moikrug.ru/rin-nas">MoiKrug</a></dd>
+						<!--<dt><span class="glyphicon glyphicon-link" title="Ссылки на профили в соцсетях" data-toggle="tooltip"></span></dt>
+						<dd><a href="https://ru.linkedin.com/in/mrinat">LinkedIn</a>, <a href="https://moikrug.ru/rin-nas">MoiKrug</a></dd>-->
 						
 						<dt><span class="glyphicon glyphicon-adjust" title="Личные качества" data-toggle="tooltip"></span></dt>
 						<dd>
-							ответственность, самостоятельность, инициативность, честность, аккуратность, <span class="text-nowrap">не конфликтен</span>;
-							грамотный русский язык, хороший художественный вкус, intermediate English, <!--могу разговривать на простые темы, проходить интервью и вести деловую переписку-->
-							веду здоровый образ жизни;
+							ответственный, самостоятельный, инициативный, честный, аккуратный, неконфликтный;
+							грамотный русский язык, intermediate English; <!--могу разговривать на простые темы, проходить интервью и вести деловую переписку-->
+							хороший художественный вкус, веду здоровый образ жизни; люблю порядок, надёжность, понятность
 						</dd>
 						
 						<dt><span class="glyphicon glyphicon-wrench" title="Профессиональные качества" data-toggle="tooltip"></span></dt>
@@ -358,10 +358,30 @@
 			</div>
 
 			<div class="row">
-  				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-  					<h3 id="specialization"><span class="glyphicon glyphicon-flag"></span>Специализация</h3>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+					<h3 id="goals"><span class="glyphicon glyphicon-screenshot"></span>Цели</h3>
 					<ul>
-						<li>Разработка и развитие сложного и нагруженного <abbr title="программное обеспечение">ПО</abbr> на базе <span class="text-nowrap">веб-технологий</span><!-- для B2B, B2C и внутрикорпоративное--></li>
+						<li><mark>Создание успешных инновационных продуктов с качественным контентом и сервисами. И не просто умных продуктов, а гениальных!</mark></li>
+						<li class="hidden">Профессиональный рост, расширение сферы применения своих знаний и умений, возможность полной реализации своего потенциала, получение удовлетворения от работы</li>
+						<li>Работа в международной компании с полностью «белой» зарплатой</li>
+						<li>Долгосрочное сотрудничество</li>
+					</ul>
+				</div>
+
+  				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+					<h3 id="favorites"><span class="glyphicon glyphicon-flag"></span>Профессиональные интересы</h3>
+					<ul>
+						<li>Системная аналитика, программирование, базы данных, веб-технологии;</li>
+						<li>Парсинг веб-сайтов, очистка и нормализация текстов, извлечение структурированной информации из неструктурированных текстов;</li>
+						<li>NodeJS, Rust, Tatantool, ClickHouse, PostgreSQL.</li>
+					</ul>
+
+  					<!--
+					<h3 id="specialization"><span class="glyphicon glyphicon-flag"></span>Специализация</h3>
+					<ul>
+						<li>Разработка и развитие сложного и нагруженного <abbr title="программное обеспечение">ПО</abbr> на базе <span class="text-nowrap">веб-технологий</span></li>
 						<li>Сферы бизнеса — финансы, интернет-<abbr title="средство массовой информации">СМИ</abbr>, электронная коммерция и др.</li>
 						<li>Опыт работы в области <abbr title="информационные технологии">ИТ</abbr>
 							<script>
@@ -373,21 +393,13 @@
 							</script>
 						</li>
 					</ul>
+					-->
   				</div>
 
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<h3 id="goals"><span class="glyphicon glyphicon-screenshot"></span>Цели</h3>
-					<ul>
-						<li><mark>Создание успешных инновационных продуктов с качественным контентом и сервисами. И не просто умных продуктов, а гениальных!</mark></li>
-						<li>Долгосрочное сотрудничество <span class="text-nowrap hidden">(от 3-х лет)</span></li>
-						<li class="hidden">Профессиональный рост, расширение сферы применения своих знаний и умений, возможность полной реализации своего потенциала, получение удовлетворения от работы</li>
-						<li>Работа в стабильной компании с полностью «белой» зарплатой <!--(зарабатывает больше, чем тратит; &gt; 5 лет на рынке, &gt; 100 сотрудников, &lt; 1 часа в дороге до офиса)--></li>
-					</ul>
-				</div>
 			</div>
 
 			<h3 id="skills" title="Путь для совершенствования — это развитие своих сильных сторон"><span class="glyphicon glyphicon-cog"></span>Профессиональные навыки</h3>
-			
+
 			<h4>Менеджмент</h4>
 			<ol>
 				<li>Умение превращать цели и задачи компании в продуманные ИТ решения</li>
@@ -398,40 +410,39 @@
 				<li>Анализ поведения клиентов, выявление потребностей клиентов. Увеличение конверсии и объёмов продаж, сокращение издержек<!--, выход на рентабельность и прибыль-->. Веб-аналитика.</li>
 				<li>Поиск проблем и «узких мест» в проекте, выявление их причин и последствий. Нахождение оптимальных решений.</li>
 				<li>Ведение проекта — постоянная готовность предоставить полный и ясный отчёт о состоянии проекта, своевременное реагирование на проблемы. Координация взаимодействия с другими участниками проектной группы.</li>
-				<li>Выведение разовой или периодической работы на субподряд. Поэтапное взаимодействие, контроль выполнения.</li>
-				<li>Разработка, описание, оптимизация и автоматизация бизнес-процессов</li>
-				<li>Опыт работы в компании с внедрённой системой менеджмента качества и процессным подходом <span class="nobr">(ISO 9001:2008).</span></li>
+				<!--<li>Выведение разовой или периодической работы на субподряд. Поэтапное взаимодействие, контроль выполнения.</li>-->
+				<!--<li>Разработка, описание, оптимизация и автоматизация бизнес-процессов</li>-->
+				<!--<li>Опыт работы в компании с внедрённой системой менеджмента качества и процессным подходом <span class="nobr">(ISO 9001:2008).</span></li>-->
 			</ol>
 
 			<h4>Системный анализ, архитектура, разработка ПО</h4>
 			<ol>
 				<li>
-					Управление требованиями к ПО (cбор, анализ, спецификация, утверждение; изменения), 
-					написание технических заданий, создание графических диаграмм и <span class="text-nowrap">блок-схем,</span> ведение проектной документации.
-					<a href="files/TechnicalRequirementsExamples_RinatMukhtarov.zip" 
-					   class="hidden-print" 
-					   onClick="alert('Пароль от архива: \x57\x65\x6c\x63\x6f\x6d\x65&#92;&#120;&#50;&#49;')"><strong>Скачать примеры ТЗ <span class="text-nowrap">(zip, 1.6 MB)</span></strong></a>.
-				</li>
+					Управление требованиями к ПО (cбор, анализ, спецификация, утверждение; изменения), написание технических заданий, ведение проектной документации.
+					<a href="files/TechnicalRequirementsExamples_RinatMukhtarov.zip"
+					   class="hidden-print"
+					   onClick="alert('Пароль от архива: \x57\x65\x6c\x63\x6f\x6d\x65&#92;&#120;&#50;&#49;')"><strong>Скачать примеры ТЗ <span class="text-nowrap">(zip, 1.6 MB)</span></strong></a>.</li>
+				<li>Создание графических диаграмм и <span class="text-nowrap">блок-схем,</span> описание алгоритмов, инструкций, регламентов, процессов, стандартов и др.</li>
 				<li>Проектирование и прототипирование пользовательских и&nbsp;административных интерфейсов, технический дизайн, удобство использования (usability), <span class="text-nowrap">UI/UX,</span> <span class="text-nowrap">A/B-тестирование</span></li>
 				<li>Проектирование устойчивой и масштабируемой клиент-серверной архитектуры. Ускорение загрузки веб-страниц, снижение нагрузки на серверы. Интеграция систем.</li>
 				<li>
 					Проектирование <abbr title="Online Transaction Processing">OLTP</abbr> и <abbr title="Online Analytical Processing">OLAP</abbr> баз данных, 
-					нормализация/денормализация, написание сложных многотабличных/вложенных SQL-запросов, использование транзакций, внешних ключей, триггеров, функций и&nbsp;хранимых процедур. 
+					нормализация/денормализация, написание сложных SQL-запросов, использование транзакций, внешних ключей, триггеров, функций и&nbsp;хранимых процедур.
 					Оптимизация скорости выполнения запросов.
 				</li>
-				<li>Разработка ПО короткими итерациями. Ориентация на бизнес-задачи. Постановка и распределение задач в&nbsp;отделе, контроль выполнения, оценка результатов. Наставничество. Участие в оценке новых проектов.</li>
+				<!--<li>Разработка ПО короткими итерациями. Ориентация на бизнес-задачи. Постановка и распределение задач в&nbsp;отделе, контроль выполнения, оценка результатов. Наставничество. Участие в оценке новых проектов.</li>-->
 				<li>
-					Выполнение всех работ, связанных с разработкой: планирование задач, сбор и анализ требований, проектирование, программирование, тестирование, документирование.
-					Принципы <span class="nobr">веб-разработки</span>&nbsp;— надёжность, продуманность, безопасность, покрытие тестами и документацией.
-					<a href="https://github.com/rin-nas?tab=repositories" class="hidden-print">Посмотреть примеры исходного кода</a>
+					Веб-разработка ПО: планирование задач, сбор и анализ требований, проектирование, программирование, тестирование, документирование, внедрение, эксплуатация и техподдержка пользователей.
+					Принципы разработки&nbsp;— устойчивость к ошибкам и взлому, простая архтитектура, наличие документации.
+					<!--<a href="https://github.com/rin-nas?tab=repositories" class="hidden-print">Посмотреть примеры исходного кода</a>-->
 				</li>
 				<li>Опыт разработки конверторов и парсеров структур данных, парсеров текстов на естественном языке. Морфология, автоисправление опечаток, автотипографика, антиспам, антифлуд, антимат<!--, ёфикатор-->.</li>
 				<li>
 					Опыт разработки поисковых механизмов (полнотекстовый, параметрический, семантический) с учётом морфологии языка. 
 					Исправление ошибок и опечаток в поисковых запросах. 
-					Выделение сниппетов с подсветкой ключевых слов в результатах поиска.
+					<!--Выделение сниппетов с подсветкой ключевых слов в результатах поиска.-->
 				</li>
-				<li>Опыт разработки веб-сайтов на базе <abbr title="Content Management System">CMS</abbr> своей разработки.</li>
+				<!--<li>Опыт разработки веб-сайтов на базе <abbr title="Content Management System">CMS</abbr> своей разработки.</li>-->
 				<li>Адаптивная вёрстка веб-сайтов под современные и устаревшие браузеры. Поисковая оптимизация (SEO).</li>
 			</ol>
 
@@ -440,40 +451,35 @@
 				<li>
 					<strong>Технологии:</strong>
 
-					<span class="text-nowrap">Linux (Ubuntu, Mint, CentOS)</span>, Windows 7;
+					<span class="text-nowrap">Linux (Ubuntu, CentOS)</span>, Windows 7;
 
-					<abbr title="Unified Modeling Language">UML</abbr>, BPMN,
-					<a href="https://en.wikipedia.org/wiki/Entity-relationship_model"><abbr title="Entity-relationship model">ERM</abbr></a>; 
+					<abbr title="Unified Modeling Language">UML</abbr>, BPMN, <abbr title="Entity-relationship model">ERM</abbr>;
 
-					<abbr title="Rational Unified Process">RUP</abbr>, <span class="text-nowrap">Agile software development (Scrum, Kanban)</span>;
+					<span class="text-nowrap">Agile software development (Scrum, Kanban)</span>; <!--<abbr title="Rational Unified Process">RUP</abbr>-->
 
-					<span class="text-nowrap">Continuous Integration,</span> <abbr title="Service-Oriented Architecture">SOA</abbr>,
-					<abbr title="Model-View-Controller">MVC</abbr>,	<abbr title="Object-oriented programming">OOP</abbr>, <abbr title="Test-driven development">TDD</abbr>, <abbr title="Natural language processing">NLP</abbr>;
+					<span class="text-nowrap">Continuous Integration,</span> <span class="text-nowrap">GIT Flow</span>, <abbr title="Service-Oriented Architecture">SOA</abbr>,
+					<abbr title="Model-View-Controller">MVC</abbr>,	<abbr title="Object-oriented programming">OOP</abbr>, <abbr title="Test-driven development">TDD</abbr>;
 
-					<span class="text-nowrap">JavaScript (ECMA 2015, 2016),</span> PHP, <abbr title="Structured Query Language">SQL</abbr> HTML5, CSS3, Bash;
+					<span class="text-nowrap">JavaScript (ECMAScript 2015, 2016),</span> PHP, <abbr title="Structured Query Language">SQL</abbr>, HTML5, CSS3, Bash;
 
-					SSH, HTTP, HTTPS, <abbr title="REpresentational State Transfer">REST</abbr>, <abbr title="Simple Object Access Protocol">SOAP</abbr>, XML, XSD, XPath, 
-					<abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Asynchronous Javascript and XML">AJAX</abbr>,
-					<span class="text-nowrap"><a href="https://regex101.com/"><abbr title="Regular Expressions">RegExp</abbr></a> (guru);</span>
+					SSH, HTTP[S], <abbr title="REpresentational State Transfer">REST</abbr>, <abbr title="Simple Object Access Protocol">SOAP</abbr>, XML, XSD, XPath,
+					<abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Asynchronous Javascript and XML">AJAX</abbr>, OpenAPI (Swagger), JSON Schema,
+					<span class="text-nowrap"><abbr title="Regular Expressions">RegExp</abbr> (guru);</span>
 
-					jQuery, Bootstrap, Yii, PHPUnit;
+					jQuery, Bootstrap, PHPUnit;
 
-					GIT, Mercurial, Subversion;
+					GIT, Mercurial;
 
-					NodeJS, PhantomJS, Apache, Nginx, MySQL, ClickHouse, noSQL, Memcache, Sphinx;
-					<span class="text-nowrap">Chrome Developer Tools,</span> Firebug, Selenium, Fiddler;
-					
-					В меньшей степени — <abbr title="Data WareHouse">DWH</abbr>, OData; PostgreSQL, MSSQL, SQLite, MongoDB; Python, Java, C#;
-					
-					В далёком прошлом — Pascal, Deplhi;
+					NodeJS, PhantomJS, Nginx, Apache, PostgreSQL, MySQL, ClickHouse, Sphinx, Memcached;
+
+					В меньшей степени — <abbr title="Data WareHouse">DWH</abbr>, RabbitMQ, MSSQL, SQLite, MongoDB; Python, Java, C#, Pascal, Deplhi;
 				</li>
 				<li>
 					<strong><abbr title="прикладное программное обеспечение">ППО</abbr>:</strong>
-					MS Word/Excel/Powerpoint/Outlook/Project, PhpStorm, NetBeans, SourceTree, XmlSpy, Photoshop;
+					MS Word/Excel/Powerpoint/Outlook/Project, PhpStorm, SourceTree, XmlSpy, <span class="text-nowrap">Chrome Developer Tools,</span> Firebug, Selenium, Fiddler, Postman;
 					Яндекс.Метрика/Вебмастер/Директ;
 					Google Analytics, Google Search Console, Google Play Developer Console;
-					GitHub, GitLab, Jira, Confluence, Bitbucket, <span class="text-nowrap">Draw.io,</span> Mantis, Redmine, osTicket;
-					<!-- Есть интерес к более глубокому изучению Go, Lua, Python/Tornado, Firebird, Solr, MongoDB, Tatantool.-->
+					GitHub, GitLab, Jira, Confluence, Bitbucket, <span class="text-nowrap">Draw.io</span>;
 				</li>
 			</ol>
 
@@ -545,8 +551,12 @@
 								На входе Markdown, на выходе JSON.
 								[<a href="//github.com/rin-nas/cv/tree/gh-pages/files/rabota.ru/rabota-importer/README.md">документация</a>]</li>
 							</li>
-							<li>На <a href="https://www.rabota.ru/resume/create/">странице создания резюме</a> сделал загрузку (импорт) резюме с других сайтов по ссылке (url).</li>
-							<li>Перевёл <a href="https://wiki.rabota.space/">базу знаний</a> проекта «Работа.Ру» с Media'Wiki на Confluence.</li>
+                            <li>Участвовал проектировании и разработке <a href="https://api.rabota.ru/v4/openapi.json" title="посмотреть JSON схему">API 4-й версии</a></li>
+							<li>На <a href="https://www.rabota.ru/resume/create/">странице создания резюме</a> сделал загрузку (импорт) резюме с других сайтов.</li>
+							<li>Являлся одним из ответственных за <a href="https://wiki.rabota.space/">базу знаний</a> проекта «Работа.Ру» на ПО Confluence.
+                                Автор и соавтор следующих типов документов:
+                                описание работы сервисов, алгоритмов, логических и физических моделей данных, инструкций, регламентов, правил, соглашений, чек-листов, склада готовых решений задач и проблем и др.
+                            </li>
 						</ol>
 					</li>
 				</ul>
