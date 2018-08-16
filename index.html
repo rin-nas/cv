@@ -150,23 +150,7 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<script>
-			function getAge(y, m, d) {
-				var birthDate = new Date(+y, +m - 1, +d),
-					todayDate = new Date();
-                var years = (todayDate.getFullYear() - birthDate.getFullYear());
-                if (todayDate.getMonth() < birthDate.getMonth() ||
-                    todayDate.getMonth() == birthDate.getMonth() && todayDate.getDate() < birthDate.getDate()) {
-                    years--;
-                }
-                return years;
-			}
-			function declOfNum(number, titles) {  
-				var cases = [2, 0, 1, 1, 1, 2];
-				return titles[ (number%100>4 && number%100<20)? 2 : cases[(number%10<5)?number%10:5] ];  
-			}  
-		</script>
-	
+
 	</head>
 	<body data-spy="scroll" data-target="#spy-nav" data-offset="30">
 
@@ -224,7 +208,7 @@
 					</label>
 				</div>
 				-->
-				
+
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="spy-nav">
 					<ul class="nav navbar-nav">
@@ -317,13 +301,7 @@
 						<dt><span class="glyphicon glyphicon-star" title="Дата рождения" data-toggle="tooltip"></span></dt>
 					  	<dd title="Мои года — моё богатство!">
 					  		10.09.1977
-					  		<script>
-								+function(){
-									var age = getAge(1977, 9, 10);
-									var ages = declOfNum(age, ['год','года','лет']);
-									document.write("(" + age + " " + ages + ")");
-								}()
-							</script>
+							<span class="my-age"></span>
 					  	</dd>
 					  	
 						<dt><span class="glyphicon glyphicon-map-marker" title="Место проживания" data-toggle="tooltip"></span></dt>
@@ -365,7 +343,7 @@
 						<li><mark>Создание успешных инновационных продуктов с качественным контентом и сервисами. И не просто умных продуктов, а гениальных!</mark></li>
 						<li class="hidden">Профессиональный рост, расширение сферы применения своих знаний и умений, возможность полной реализации своего потенциала, получение удовлетворения от работы</li>
 						<li>Работа в международной компании с полностью «белой» зарплатой</li>
-						<li>Долгосрочное сотрудничество</li>
+						<li class="hidden">Долгосрочное сотрудничество</li>
 					</ul>
 				</div>
 
@@ -374,26 +352,10 @@
 					<h3 id="favorites"><span class="glyphicon glyphicon-flag"></span>Профессиональные интересы</h3>
 					<ul>
 						<li>Системная аналитика, программирование, базы данных, веб-технологии;</li>
-						<li>Парсинг веб-сайтов, очистка и нормализация текстов, извлечение структурированной информации из неструктурированных текстов;</li>
+						<li>Парсинг веб-сайтов, очистка и нормализация текстов, извлечение структурированной информации из неструктурированных текстов; обработка и анализ данных</li>
 						<li>NodeJS, Rust, Tarantool, ClickHouse, PostgreSQL, <abbr title="Natural Language Processing">NLP</abbr>, <abbr title="Machine Learning">ML</abbr></li>
 					</ul>
 
-  					<!--
-					<h3 id="specialization"><span class="glyphicon glyphicon-flag"></span>Специализация</h3>
-					<ul>
-						<li>Разработка и развитие сложного и нагруженного <abbr title="программное обеспечение">ПО</abbr> на базе <span class="text-nowrap">веб-технологий</span></li>
-						<li>Сферы бизнеса — финансы, интернет-<abbr title="средство массовой информации">СМИ</abbr>, электронная коммерция и др.</li>
-						<li>Опыт работы в области <abbr title="информационные технологии">ИТ</abbr>
-							<script>
-								+function(){
-									var age = getAge(1999, 9, 1);
-									var ages = declOfNum(age, ['год','года','лет']);
-									document.write("— " + age + " " + ages + ".");
-								}()
-							</script>
-						</li>
-					</ul>
-					-->
   				</div>
 
 			</div>
@@ -2314,12 +2276,50 @@
 
 		<script>
 
-			$('body').tooltip({
+            function getAge(y, m, d) {
+                var birthDate = new Date(+y, +m - 1, +d),
+                    todayDate = new Date();
+                var years = (todayDate.getFullYear() - birthDate.getFullYear());
+                if (todayDate.getMonth() < birthDate.getMonth() ||
+                    todayDate.getMonth() == birthDate.getMonth() && todayDate.getDate() < birthDate.getDate()) {
+                    years--;
+                }
+                return years;
+            }
+
+            function declOfNum(number, titles) {
+                var cases = [2, 0, 1, 1, 1, 2];
+                return titles[ (number%100>4 && number%100<20)? 2 : cases[(number%10<5)?number%10:5] ];
+            }
+
+            function getPeriod(beginYear, beginMonth, endYear, endMonth) {
+				var todayDate = new Date(), ret = [];
+                if (! endYear)  endYear  = todayDate.getFullYear();
+				if (! endMonth) endMonth = todayDate.getMonth() + 1;
+				var years   = endYear  - beginYear  - (endMonth < beginMonth ?  1 : 0),
+					monthes = endMonth - beginMonth + (endMonth < beginMonth ? 12 : 0);
+				if (years > 0)   ret.push(years   + ' ' + declOfNum(years, ['год','года','лет']));
+				if (monthes > 0) ret.push(monthes + ' ' + declOfNum(monthes, ['месяц','месяца','месяцев']));
+				return ret.join(' ');
+			}
+
+            +function(){
+                var value = getAge(1977, 9, 10);
+                var unit  = declOfNum(value, ['год','года','лет']);
+                $('.my-age').text("(" + value + " " + unit + ")");
+
+                var m = $('.period:first > *').text().match(/^(\d+)\.(\d+)/),
+				    beginYear  = +m[2],
+					beginMonth = +m[1];
+                $('.period:first').prepend(getPeriod(beginYear, beginMonth));
+            }();
+
+            $('body').tooltip({
 				selector:'[data-toggle="tooltip"]',
-				container:"body",
+				container: 'body',
 				animation: false
 			}).tooltip('show');
-			
+
 			$('.navbar-brand,h1,h2,h3,h4').hover(
 				function() {
 					$(this).addClass('hover');
@@ -2328,11 +2328,12 @@
 				}
 			);
 			//onmouseover="$(this).find('.glyphicon').css('color', '')"
-			
+
 			$('.extra-toggler').click(function(){
 				$(this).parent().next().toggle();
 				return false;
 			});
+
 		</script>
 	</body>
 </html>
