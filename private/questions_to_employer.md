@@ -76,5 +76,5 @@
 1. Есть ли возможность повышения квалификации (за счёт работодателя)? Курсы английского языка, профессиональные конференции, оплата учебной литературы?
 
 ### Ссылки
-https://github.com/NikolayS/interview-questions/blob/master/general.md
-https://www.rabota.ru/articles/career/stop-slova-na-sobesedovanii-5628
+1. https://github.com/NikolayS/interview-questions/blob/master/general.md
+1. https://www.rabota.ru/articles/career/stop-slova-na-sobesedovanii-5628
