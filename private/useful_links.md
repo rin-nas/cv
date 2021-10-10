@@ -1,5 +1,7 @@
 # Полезные ссылки
 
+https://jsonresume.org/schema/
+
 ## Онлайн обучение
 
 1. `http://www.intuit.ru/`
