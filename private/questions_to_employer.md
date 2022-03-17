@@ -78,3 +78,4 @@
 ### Ссылки
 1. https://github.com/NikolayS/interview-questions/blob/master/general.md
 1. https://www.rabota.ru/articles/career/stop-slova-na-sobesedovanii-5628
+1. [Какие вопросы задать работодателю на собеседовании?](https://habr.com/ru/post/655631/)
