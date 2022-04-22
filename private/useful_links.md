@@ -22,4 +22,5 @@ https://jsonresume.org/schema/
 
 1. `http://www.hr-portal.ru/`
 1. `https://hh.ru/article/301514?from=article_308505` — 10 вещей, которые не надо писать в сопроводительном письме
-1. `http://www.vedomosti.ru/management/blogs/2016/06/07/643918-vi-ischete-rabotu-dolshe-treh-mesyatsev` 
+1. `http://www.vedomosti.ru/management/blogs/2016/06/07/643918-vi-ischete-rabotu-dolshe-treh-mesyatsev`
+1. `https://vc.ru/rabota-ru/407434-doveryay-no-proveryay-kogda-otzyvy-byvshih-sotrudnikov-ne-pomogut-ustroitsya-v-horoshuyu-kompaniyu`
