@@ -1,11 +1,11 @@
-Date: Tue, 26 Apr 2022 21:00:09 +0300 (MSK)
-Message-ID: <83264827.31992.1650996009147@confluence1-msk2>
+Date: Fri, 9 Sep 2022 16:24:06 +0300 (MSK)
+Message-ID: <1933712245.8218.1662729846225@confluence1-msk2>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_31991_1591963215.1650996009145"
+	boundary="----=_Part_8217_1358809169.1662729846223"
 
-------=_Part_31991_1591963215.1650996009145
+------=_Part_8217_1358809169.1662729846223
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -245,12 +245,12 @@ d of the content */
 =B6=D0=B0=D0=BD=D0=B8=D0=B5">=D0=A1=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B0=D0=
 =BD=D0=B8=D0=B5</h1>
 <p><style type=3D"text/css">/*<![CDATA[*/
-div.rbtoc1650996009015 {padding: 0px;}
-div.rbtoc1650996009015 ul {list-style: none;margin-left: 0px;}
-div.rbtoc1650996009015 li {margin-left: 0px;padding-left: 0px;}
+div.rbtoc1662729846100 {padding: 0px;}
+div.rbtoc1662729846100 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1662729846100 li {margin-left: 0px;padding-left: 0px;}
 
 /*]]>*/</style></p>
-<div class=3D"toc-macro rbtoc1650996009015">=20
+<div class=3D"toc-macro rbtoc1662729846100">=20
 <ul class=3D"toc-indentation">=20
 <li><span class=3D"TOCOutline">1</span> <a href=3D"#id-=F0=9F=8E=AD=D0=A1=
 =D0=B5=D1=80=D0=B2=D0=B8=D1=81=D0=B4=D0=B5=D1=82=D0=B5=D0=BA=D1=82=D0=B8=D1=
@@ -592,14 +592,13 @@ e6" style=3D"text-align: right;">100</td>
 <p><br></p>
 <div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
 <div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
-r-bottom-width: 1px;">=20
-<b class=3D"code-title">=D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=
-=B8=D1=8F =D0=BE =D1=82=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D0=BE=D0=BC =D1=81=D0=
-=B5=D1=80=D0=B2=D0=B5=D1=80=D0=B5</b>=20
-<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
-n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
-trol-text">Expand source</span></span>=20
-<span class=3D"collapse-spinner-wrapper"></span>=20
+r-bottom-width: 1px;"> <b class=3D"code-title">=D0=98=D0=BD=D1=84=D0=BE=D1=
+=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D1=82=D0=B5=D1=81=D1=82=D0=BE=D0=
+=B2=D0=BE=D0=BC =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=B5</b><span class=
+=3D"collapse-source expand-control" style=3D"display:none;"><span class=3D"=
+expand-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">=
+Expand source</span></span><span class=3D"collapse-spinner-wrapper"></span>=
+=20
 </div>=20
 <div class=3D"codeContent panelContent pdl hide-toolbar">=20
 <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
@@ -1082,26 +1081,34 @@ i>
 =D0=BD=D1=8B=D1=85</h2>
 <div class=3D"table-wrap">
 <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 81.=
-8487%;">
+856%;">
 <colgroup>
 <col>
-<col style=3D"width: 18.6023%;">
+<col style=3D"width: 16.4268%;">
+<col style=3D"width: 4.14903%;">
+<col style=3D"width: 36.4945%;">
+<col style=3D"width: 37.3412%;">
+<col style=3D"width: 2.45555%;">
 <col>
-<col style=3D"width: 50.5642%;">
-<col style=3D"width: 30.8335%;">
 </colgroup>
 <tbody>
 <tr>
-<th class=3D"confluenceTh"><p>=E2=84=96</p></th>
+<th class=3D"numberingColumn confluenceTh"><p>=E2=84=96</p></th>
 <th class=3D"confluenceTh"><p>=D0=A2=D0=B8=D0=BF =D0=B4=D0=B0=D0=BD=D0=BD=
 =D1=8B=D1=85</p></th>
 <th colspan=3D"1" class=3D"confluenceTh"><p>=D0=9F=D0=94?</p></th>
 <th class=3D"confluenceTh"><p>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=
 =B5</p></th>
 <th class=3D"confluenceTh"><p>=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=80</p></th>
+<th colspan=3D"1" class=3D"confluenceTh">=D0=94=D0=B5=D1=82=D0=B5=D0=BA=D1=
+=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81=D0=BF=D0=B8=D1=
+=81=D0=BA=D0=BE=D0=B2 =D0=B2 =D1=82=D0=B5=D0=BA=D1=81=D1=82=D0=BE=D0=B2=D1=
+=8B=D1=85 =D0=BF=D0=BE=D0=BB=D1=8F=D1=85?</th>
+<th colspan=3D"1" class=3D"confluenceTh">=D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D1=
+=87=D0=B0=D0=BD=D0=B8=D1=8F</th>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"numberingColumn confluenceTd">1</td>
 <td class=3D"confluenceTd"><p>email</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,128=
 ,0);">=D0=B4=D0=B0</span></p></td>
@@ -1111,9 +1118,12 @@ i>
 <td class=3D"confluenceTd"><p><code><a class=3D"external-link" href=3D"mail=
 to:mike@yandex.ru" rel=3D"nofollow" style=3D"text-decoration: none;text-ali=
 gn: left;">mike@yandex.ru</a></code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>2</p></td>
+<td class=3D"numberingColumn confluenceTd">2</td>
 <td class=3D"confluenceTd"><p>phone</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,128=
 ,0);">=D0=B4=D0=B0</span></p></td>
@@ -1123,9 +1133,12 @@ gn: left;">mike@yandex.ru</a></code></p></td>
 7 (965) 123-45-67</span></code></p><p><code><span style=3D"color: rgb(23,43=
 ,77);">=D1=82.=D0=B4. 8 (83166) 1-23-45 =D1=81 9 =D0=B4=D0=BE 18</span></co=
 de></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>3</p></td>
+<td class=3D"numberingColumn confluenceTd">3</td>
 <td class=3D"confluenceTd"><p>person_name</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,128=
 ,0);">=D0=B4=D0=B0</span></p></td>
@@ -1134,9 +1147,12 @@ de></p></td>
 =D0=98=D0=B2=D0=B0=D0=BD=D0=BE=D0=B2 =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
 =D0=92=D0=BB=D0=B0=D0=B4=D0=B8=D0=BC=D0=B8=D1=80=D0=BE=D0=B2=D0=B8=D1=87</s=
 pan></code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>4</p></td>
+<td class=3D"numberingColumn confluenceTd">4</td>
 <td class=3D"confluenceTd"><p>url</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1145,9 +1161,12 @@ pan></code></p></td>
 s://www.rabota.ru/company/rabota_ru/" rel=3D"nofollow" style=3D"text-decora=
 tion: underline;">https://www.rabota.ru/company/rabota_ru/</a></code></p></=
 td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=D0=BD=D0=B5=D1=82</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>5</p></td>
+<td class=3D"numberingColumn confluenceTd">5</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>filename</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1156,9 +1175,12 @@ td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>2021/10/14/rive-kirill-41=
 458930.jpg</code></p><p><code>/sbs-2022-01/0/sbs-2022-01_87.pdf</code></p><=
 p><code>2018/09/10/1536582779-12.mp3</code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>6</p></td>
+<td class=3D"numberingColumn confluenceTd">6</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>uuid</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1170,9 +1192,12 @@ w">UUID</a> (=D0=B3=D0=BB=D0=BE=D0=B1=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>04b1ce9d-2ed0-4db8-8aad-8=
 7e1784f3fed</code></p><p><code>00793c7d72994f8a97628de4dc3d60b5</code></p><=
 /td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>7</p></td>
+<td class=3D"numberingColumn confluenceTd">7</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>random</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1193,9 +1218,12 @@ w">UUID</a> (=D0=B3=D0=BB=D0=BE=D0=B1=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =
 <li><p><code>INCIDENT-310</code></p></li>
 <li><p><code>rsya_tgbreg_60396311_pd</code></p></li>
 </ol></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>8</p></td>
+<td class=3D"numberingColumn confluenceTd">8</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>inet</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1204,9 +1232,12 @@ w">UUID</a> (=D0=B3=D0=BB=D0=BE=D0=B1=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =
 NET" rel=3D"nofollow">IPv4</a></p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>109.205.252.192</code></p=
 ></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>9</p></td>
+<td class=3D"numberingColumn confluenceTd">9</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>macaddr</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1216,9 +1247,12 @@ ACADDR" rel=3D"nofollow">MAC =D0=B0=D0=B4=D1=80=D0=B5=D1=81</a></p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code><span style=3D"color: rgb=
 (0,0,0);">08:00:2b:01:02:03</span></code></p><p><code><span style=3D"color:=
  rgb(0,0,0);">08:00:2b:01:02:03:04:05</span></code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>10</p></td>
+<td class=3D"numberingColumn confluenceTd">10</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>crypt</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1229,25 +1263,127 @@ ACADDR" rel=3D"nofollow">MAC =D0=B0=D0=B4=D1=80=D0=B5=D1=81</a></p></td>
 ></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>$2a$10$066WW2C2Qah0XOFkK4=
 jO0eyFD3ZfL4gvY0/EBhA0cFt2zxtIrjd1a</code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>11</p></td>
+<td class=3D"numberingColumn confluenceTd">11</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>inn</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,128=
 ,0);">=D0=B4=D0=B0</span></p></td>
-<td colspan=3D"1" class=3D"confluenceTd"><p>=D0=98=D0=9D=D0=9D =D1=8E=D1=80=
-=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D0=BB=D0=B8=
-=D1=86=D0=B0 (10 =D1=86=D0=B8=D1=84=D1=80) =D0=B8=D0=BB=D0=B8 =D1=84=D0=B8=
-=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D0=BB=D0=B8=D1=86=
-=D0=B0 (=D0=B8=D0=BD=D0=B4=D0=B8=D0=B2=D0=B8=D0=B4=D1=83=D0=B0=D0=BB=D1=8C=
-=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D1=80=D0=B5=D0=B4=D0=BF=D1=80=D0=B8=D0=BD=
-=D0=B8=D0=BC=D0=B0=D1=82=D0=B5=D0=BB=D1=8F) (12 =D1=86=D0=B8=D1=84=D1=80)</=
-p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>=D0=98=D0=9D=D0=9D (=D0=98=D0=
+=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=
+=D0=BD=D1=8B=D0=B9 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80 =D0=BD=D0=B0=D0=BB=D0=BE=
+=D0=B3=D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=89=D0=B8=D0=BA=D0=
+=B0)</p>
+<ul>
+<li>=D1=8E=D1=80=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B3=D0=
+=BE =D0=BB=D0=B8=D1=86=D0=B0 (10 =D1=86=D0=B8=D1=84=D1=80) =D0=B8=D0=BB=D0=
+=B8</li>
+<li>=D1=84=D0=B8=D0=B7=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D0=
+=BB=D0=B8=D1=86=D0=B0 (=D0=B8=D0=BD=D0=B4=D0=B8=D0=B2=D0=B8=D0=B4=D1=83=D0=
+=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D1=80=D0=B5=D0=B4=D0=BF=D1=
+=80=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D1=82=D0=B5=D0=BB=D1=8F) (12 =D1=86=D0=B8=
+=D1=84=D1=80)</li>
+</ul></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>7714467185</code></p><p><=
 code>781304289675</code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>12</p></td>
+<td class=3D"numberingColumn confluenceTd">12</td>
+<td colspan=3D"1" class=3D"confluenceTd">bik</td>
+<td colspan=3D"1" class=3D"confluenceTd">?</td>
+<td colspan=3D"1" class=3D"confluenceTd">=D0=91=D0=98=D0=9A (=D0=91=D0=B0=
+=D0=BD=D0=BA=D0=BE=D0=B2=D1=81=D0=BA=D0=B8=D0=B9 =D0=98=D0=B4=D0=B5=D0=BD=
+=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=
+=B9 =D0=9A=D0=BE=D0=B4) (9 =D1=86=D0=B8=D1=84=D1=80)</td>
+<td colspan=3D"1" class=3D"confluenceTd"><code>044525225</code></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">TODO</span></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">13</td>
+<td colspan=3D"1" class=3D"confluenceTd">kpp</td>
+<td colspan=3D"1" class=3D"confluenceTd">?</td>
+<td colspan=3D"1" class=3D"confluenceTd">=D0=9A=D0=9F=D0=9F (=D0=BA=D0=BE=
+=D0=B4 =D0=BF=D1=80=D0=B8=D1=87=D0=B8=D0=BD=D1=8B =D0=BF=D0=BE=D1=81=D1=82=
+=D0=B0=D0=BD=D0=BE=D0=B2=D0=BA=D0=B8 =D0=BD=D0=B0 =D1=83=D1=87=D1=91=D1=82)=
+ (9 =D1=86=D0=B8=D1=84=D1=80)</td>
+<td colspan=3D"1" class=3D"confluenceTd"><code>502901001</code></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">TODO</span></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">14</td>
+<td colspan=3D"1" class=3D"confluenceTd">bank_account</td>
+<td colspan=3D"1" class=3D"confluenceTd">?</td>
+<td colspan=3D"1" class=3D"confluenceTd">=D1=80=D0=B0=D1=81=D1=87=D1=91=D1=
+=82=D0=BD=D1=8B=D0=B9 =D1=81=D1=87=D1=91=D1=82 (20 =D1=86=D0=B8=D1=84=D1=80=
+)</td>
+<td colspan=3D"1" class=3D"confluenceTd"><code>40702810440260102703</code><=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">TODO</span></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">15</td>
+<td colspan=3D"1" class=3D"confluenceTd">correspondent_account</td>
+<td colspan=3D"1" class=3D"confluenceTd">?</td>
+<td colspan=3D"1" class=3D"confluenceTd">=D0=BA=D0=BE=D1=80=D1=80=D0=B5=D1=
+=81=D0=BF=D0=BE=D0=BD=D0=B4=D0=B5=D0=BD=D1=82=D1=81=D0=BA=D0=B8=D0=B9 =D1=
+=81=D1=87=D1=91=D1=82 (20 =D1=86=D0=B8=D1=84=D1=80)</td>
+<td colspan=3D"1" class=3D"confluenceTd"><code>30101810400000000225</code><=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">TODO</span></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">16</td>
+<td colspan=3D"1" class=3D"confluenceTd">ogrn</td>
+<td colspan=3D"1" class=3D"confluenceTd">?</td>
+<td colspan=3D"1" class=3D"confluenceTd">=D0=9E=D0=93=D0=A0=D0=9D (=D0=BE=
+=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=BE=D0=B9 =D0=B3=D0=BE=D1=81=D1=83=D0=B4=
+=D0=B0=D1=80=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D1=80=D0=B5=
+=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=
+=B9 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80) (13 =D1=86=D0=B8=D1=84=D1=80)</td>
+<td colspan=3D"1" class=3D"confluenceTd"><code>1055005177325</code></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">TODO</span></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">17</td>
+<td colspan=3D"1" class=3D"confluenceTd">ogrnip</td>
+<td colspan=3D"1" class=3D"confluenceTd">?</td>
+<td colspan=3D"1" class=3D"confluenceTd">=D0=9E=D0=93=D0=A0=D0=9D=D0=98=D0=
+=9F (=D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D0=BE=D0=B9 =D0=B3=D0=BE=D1=81=D1=
+=83=D0=B4=D0=B0=D1=80=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D1=
+=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=
+=D1=8B=D0=B9 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80 =D0=B8=D0=BD=D0=B4=D0=B8=D0=B2=
+=D0=B8=D0=B4=D1=83=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D1=80=
+=D0=B5=D0=B4=D0=BF=D1=80=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D1=82=D0=B5=D0=BB=D1=
+=8F) (15 =D1=86=D0=B8=D1=84=D1=80)</td>
+<td colspan=3D"1" class=3D"confluenceTd"><code>307760324100018</code></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">TODO</span></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">18</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>numeric</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1256,9 +1392,12 @@ code>781304289675</code></p></td>
 =D1=81 =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D1=82=D0=BE=
 =D1=87=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>123.456</code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>13</p></td>
+<td class=3D"numberingColumn confluenceTd">19</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>int_range</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1267,9 +1406,12 @@ code>781304289675</code></p></td>
 =D0=BB</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>50000 - 99999</code></p><=
 /td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>14</p></td>
+<td class=3D"numberingColumn confluenceTd">20</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>birth_date</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,128=
 ,0);">=D0=B4=D0=B0</span></p></td>
@@ -1277,9 +1419,12 @@ code>781304289675</code></p></td>
 =D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code><span style=3D"color: rgb=
 (23,43,77);">22.05.1977</span></code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>15</p></td>
+<td class=3D"numberingColumn confluenceTd">21</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>date</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1288,9 +1433,12 @@ code>781304289675</code></p></td>
 YYY-MM-DD</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code><a href=3D"/pages/viewpag=
 e.action?pageId=3D1605838">28.05.2019</a></code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>16</p></td>
+<td class=3D"numberingColumn confluenceTd">22</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>datetime</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1299,9 +1447,12 @@ e.action?pageId=3D1605838">28.05.2019</a></code></p></td>
 =B8=D0=BB=D0=B8 YYYYMMDDHHMMSS[.NNN]</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>24.06.2015 16:21</code></=
 p><p><code>20181213130700</code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,128,0)=
+;">=D0=B4=D0=B0</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>17</p></td>
+<td class=3D"numberingColumn confluenceTd">23</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>has_escaped_unicode</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1310,9 +1461,12 @@ p><p><code>20181213130700</code></p></td>
 =D0=BD=D0=BD=D1=83=D1=8E =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=8C \=
 uXXXX =D0=B8=D0=BB=D0=B8 \UXXXXXXXX</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>\u0442</code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=D0=BD=D0=B5=D1=82</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 <tr>
-<td class=3D"confluenceTd"><p>18</p></td>
+<td class=3D"numberingColumn confluenceTd">24</td>
 <td colspan=3D"1" class=3D"confluenceTd"><p>has_html_entity</p></td>
 <td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
 ,0);">=D0=BD=D0=B5=D1=82</span></p></td>
@@ -1323,6 +1477,22 @@ nofollow">HTML =D1=81=D1=83=D1=89=D0=BD=D0=BE=D1=81=D1=82=D1=8C</a></p></td=
 >
 <td colspan=3D"1" class=3D"confluenceTd"><p><code>&amp;quot &amp;amp &amp;g=
 t; &amp;Ouml; &amp;#34; &amp;#x02DC;</code></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=D0=BD=D0=B5=D1=82</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">25</td>
+<td colspan=3D"1" class=3D"confluenceTd">sql</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=D0=BD=D0=B5=D1=82</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">SQL =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=
+=D1=81 =D0=BA PostgreSQL</td>
+<td colspan=3D"1" class=3D"confluenceTd"><code>select count(*) from t where=
+ deleted_at is null</code></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;">=D0=BD=D0=B5=D1=82</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
 </tr>
 </tbody>
 </table>
@@ -1337,9 +1507,10 @@ t; &amp;Ouml; &amp;#34; &amp;#x02DC;</code></p></td>
 =BD=D0=B0 <time datetime=3D"2022-03-30" class=3D"date-past">30 =D0=BC=D0=B0=
 =D1=80 2022</time>:</p>
 <ol>
-<li>=D0=A4=D0=98=D0=9E =D0=B8 =D0=98=D0=9D=D0=9D =D0=BF=D0=BE=D0=BA=D0=B0 =
-=D0=BD=D0=B5 =D0=BE=D0=B1=D0=B5=D0=B7=D0=BB=D0=B8=D1=87=D0=B8=D0=B2=D0=B0=
-=D1=8E=D1=82=D1=81=D1=8F.</li>
+<li>=D0=9F=D0=BE=D0=BA=D0=B0 =D0=BD=D0=B5 =D0=BE=D0=B1=D0=B5=D0=B7=D0=BB=D0=
+=B8=D1=87=D0=B8=D0=B2=D0=B0=D1=8E=D1=82=D1=81=D1=8F: =D0=A4=D0=98=D0=9E, =
+=D0=98=D0=9D=D0=9D, =D1=84<span style=3D"color: rgb(23,43,77);">=D0=BE=D1=
+=82=D0=BE=D0=B3=D1=80=D0=B0=D1=84=D0=B8=D1=8F</span></li>
 <li>=D0=9F=D0=94 =D0=B2 =D0=BC=D0=B0=D1=81=D1=81=D0=B8=D0=B2=D0=B0=D1=85, =
 =D1=81=D0=BF=D0=B8=D1=81=D0=BA=D0=B0=D1=85 (=D1=82=D0=B5=D0=BA=D1=81=D1=82=
 =D0=BE=D0=B2=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BB=D1=8F =D1=81 =D1=80=D0=B0=D0=B7=
@@ -2237,6 +2408,8 @@ ource-content-type=3D"application/pdf" data-linked-resource-container-id=3D=
 =D0=B0=D0=BD=D0=B8=D1=8E) =D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D0=BE=D0=B2 =D1=82=
 =D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=BD=D0=BE=D0=B2 =D0=B2 =D0=91=D0=94</a></l=
 i>
+<li><a class=3D"external-link" href=3D"http://www.kholenkov.ru/data-validat=
+ion/" rel=3D"nofollow">http://www.kholenkov.ru/data-validation/</a></li>
 <li><a class=3D"external-link" href=3D"https://git.rabota.space/rdw/rabota-=
 importer" rel=3D"nofollow">https://git.rabota.space/rdw/rabota-importer</a>=
 </li>
@@ -2244,4 +2417,4 @@ importer" rel=3D"nofollow">https://git.rabota.space/rdw/rabota-importer</a>=
     </div>
 </body>
 </html>
-------=_Part_31991_1591963215.1650996009145--
+------=_Part_8217_1358809169.1662729846223--
