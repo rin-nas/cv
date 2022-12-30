@@ -541,6 +541,7 @@
 									<li>Помогаю разработчикам оптимизировать (ускорять) SQL запросы любой сложности (с 2018 г. по н.в.)</li>
 									<li>Спланировал процесс обновления БД с 10-й на 12-ю версию и участвовал в нём совместно с сисадмином<!--, избавился от OID в таблицах--> (2021 г.). Готовим БД для обновления на 14-ю версию.</li>
 									<li>Создал в Graylog доску с отображением метрик БД (master, replica) для разработчиков: количество ошибок во времени и с группировкой по кодам ошибок, длительность выполнения SQL запросов (avg, stddev), самые популярные и медленные запросы (2021 г.)</li>
+									<li>Ускорил на 4 часа экспорт файлов-бэкапов (дампов) с производственной БД и их импорт в тестовую БД, размер дампов уменьшился на 18%</li>
 									<li>Участвовал во внедрении тонких клонов тестовой БД на базе <a href="https://gitlab.com/postgres-ai/database-lab">DLE</a></li> (совместно с сисадмином).</li>
 								</ol>
 							<li>БД PostgreSQL, разработка:
@@ -550,12 +551,15 @@
 										(работает качественнее, чем у <a href="https://hh.ru/search/vacancy?text=ghfuhjvbcn" title="Пример: три опечатки в слове «прагромист» в английской раскладке клавиатуры">HeadHunter</a> и <a href="https://www.superjob.ru/vacancy/search/?keywords=ghfuhjvbcn" title="Пример: три опечатки в слове «прагромист» в английской раскладке клавиатуры">SuperJob</a>)</li>-->
 									<li>Сделал автоматическое исправление опечаток/ошибок в поисковых запросах на Rabota.Ru (PL/pgSQL + PHP, 2019 г.)</li>
 									<li>Перенёс одну БД<!--v3_rabota_message--> из одного кластера в другой без приостановки работы клиентов БД (совместно с сисадмином) (2020 г.)</li>
-									<li>Сделал автоматическое тестирование миграций БД (накат/откат, <a href="https://github.com/rin-nas/postgresql-patterns-library/blob/master/db_validate.md">валидация схемы БД</a>) в GIT ветках в GitLab CI/CD (с 2020 г. по н.в.)</li>
+									<li>Сделал автоматическое тестирование миграций БД (накат/откат, <a href="https://github.com/rin-nas/postgresql-patterns-library/tree/master/db_validation">валидация схемы БД</a>) в GIT ветках в GitLab CI/CD (с 2020 г. по н.в.)</li>
 									<li>Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library/tree/master/functions/gender_by_name">SQL функцию</a> определения пола по ФИО (2021 г.)</li>
 									<li>Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library/tree/master/procedures/loop_execute">SQL процедуру</a> 
 										для модификации миллионов записей в таблицах БД с контролируемым временем блокировки строк на запись для безопасных миграций БД (с 2020 г. по н.в.)</li>
+									<li>Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library/blob/master/dba/pg_terminate_backend_lock.sql">SQL запрос</a>, который по таймауту терминирует запросы, образующие очередь, из-за ошибок клиентов БД</li>
 									<li>Сделал ПО для автоматического детектирования и обезличивания персональных данных в тестовой БД 
 										[<a href="https://raw.githubusercontent.com/rin-nas/cv/gh-pages/files/rabota.ru/%F0%9F%8E%AD%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BE%D0%B1%D0%B5%D0%B7%D0%BB%D0%B8%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%94%20%D0%B2%20PostgreSQL.eml" download>документация</a>] (PL/pgSQL, psql, Bash, c 2021-09 по н.в.)</li>
+									<li>Решил техдолг (создал отсутствующие индексы на внешние ключи, добавил валидацию на колонки таблиц, выявил и удалил неиспользуемые объекты БД (таблицы и индексы) на десятки гигабайт</li>
+									<!--<li>TODO Заменил использование устаревшего dblink на современный <a href="https://postgrespro.ru/docs/postgresql/14/postgres-fdw">FDW</a></li>-->
 								</ol>
 							</li>
 							<li>Остальное:
