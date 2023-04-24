@@ -24,4 +24,5 @@ https://jsonresume.org/schema/
 1. [10 вещей, которые не надо писать в сопроводительном письме](https://hh.ru/article/301514?from=article_308505)
 1. [Четыре причины, по которым вам отказывают в новой работе](http://www.vedomosti.ru/management/blogs/2016/06/07/643918-vi-ischete-rabotu-dolshe-treh-mesyatsev)
 1. [Доверяй, но проверяй: когда отзывы бывших сотрудников не помогут устроиться в хорошую компанию](https://vc.ru/rabota-ru/407434-doveryay-no-proveryay-kogda-otzyvy-byvshih-sotrudnikov-ne-pomogut-ustroitsya-v-horoshuyu-kompaniyu)
-2. [Чем отличается поиск работы за границей и в России](https://prosto.rabota.ru/post/poisk-raboty-u-nih-i-u-nas/)
+1. [Чем отличается поиск работы за границей и в России](https://prosto.rabota.ru/post/poisk-raboty-u-nih-i-u-nas/)
+1. [Самопрезентация](https://prosto.rabota.ru/post/samoprezentaciya/?variant=3690)
