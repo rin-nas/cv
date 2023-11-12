@@ -504,10 +504,10 @@
 						<ol>
 							<li>Разработка ПО:
 								<ol>
-									<li>Сделал <a href="files/rabota.ru/rabota-importer/import.txt" title="посмотреть параметры командной строки">ПО</a> для скачивания страницы по заданному URL и сохранения содержимого в файлы (формат <span class="text-nowrap">DOM HTML</span> и Markdown).
+									<li>Сделал <a href="https://github.com/rin-nas/cv/tree/gh-pages/files/rabota.ru/rabota-importer/import.txt" title="посмотреть параметры командной строки">ПО</a> для скачивания страницы по заданному URL и сохранения содержимого в файлы (формат <span class="text-nowrap">DOM HTML</span> и Markdown).
 										Авторизация по <span class="text-nowrap">имени пользователя</span> и паролю поддерживается.
 										[<a href="https://github.com/rin-nas/cv/tree/gh-pages/files/rabota.ru/rabota-importer">документация</a>] (с 2017-05 по 2018-07)</li>
-									<li>Сделал <a href="files/rabota.ru/rabota-importer/extract.txt" title="посмотреть параметры командной строки">ПО</a> для извлечения именованных сущностей из резюме (ФИО, телефон, email, дата рождения, город, должность, зарплата, места работы и т.д.).
+									<li>Сделал <a href="https://github.com/rin-nas/cv/tree/gh-pages/files/rabota.ru/rabota-importer/extract.txt" title="посмотреть параметры командной строки">ПО</a> для извлечения именованных сущностей из резюме (ФИО, телефон, email, дата рождения, город, должность, зарплата, места работы и т.д.).
 										На входе Markdown, на выходе JSON.
 										[<a href="https://github.com/rin-nas/cv/tree/gh-pages/files/rabota.ru/rabota-importer">документация</a>] (с 2017-05 по 2018-07)</li>
 									<li class="hidden">На <a href="https://www.rabota.ru/resume/create/">странице создания резюме</a> сделал загрузку (импорт) резюме с других сайтов. (2018 г.)</li>
@@ -532,12 +532,11 @@
 									<li>Накатываю ручные миграции в производственную БД (с 2018 г. по н.в.)</li>
 									<li>Помогаю разработчикам оптимизировать (ускорять) SQL запросы любой сложности (с 2018 г. по н.в.)</li>
 									<li>Решаю проблемы в БД: очереди SQL запросов, всплески ошибок и нагрузок, отставание реплики и др. (с 2018 г. по н.в.)</li>
-									<li>Делаю периодический аудит БД, "раскапываю" и уменьшаю техдолг: 
-										анализ журнала ошибок, ресурсоёмких запросов и функций, 
-										избыточные и редкоиспользуеме индексы, 
-										неэффективный вакуум с "распуханием" таблиц и колонок,
-										огромные временные таблицы во время выполнения запросов; 
-										ставлю задачи на себя и коллег
+									<li>Делаю периодический аудит БД, выявляю и уменьшаю техдолг (ставлю задачи на себя и коллег):
+										анализ журнала ошибок, ресурсоёмкие запросы и функции,
+										неэффективный вакуум с «распуханием» таблиц,
+										огромные временные таблицы во время выполнения запросов,
+										избыточные и малоиспользуемые индексы, неактуальные данные
 										(с 2018 г. по н.в.)
 									</li>
 								</ol>
@@ -558,7 +557,7 @@
 									</li>
 									<li>Автоматизировал тестирование и инспекцию миграций БД (с 2020 г. по н.в.)</li>
 									<li>Улучшил процесс разработки и тестирования, предоставив каждому сотруднику и тестовому стенду персональную тестовую БД вместо одной общей.
-										Для этого внедрил "тонкие" клоны тестовой БД на базе <a href="https://gitlab.com/postgres-ai/database-lab">DLE</a> (совместно с сисадмином). (2022 г.)
+										Для этого внедрил «тонкие» клоны тестовой БД на базе <a href="https://gitlab.com/postgres-ai/database-lab">DLE</a> (совместно с сисадмином). (2022 г.)
 									</li>
 								</ol>
 							<li>БД PostgreSQL, разработка:
@@ -576,7 +575,7 @@
 									<li>Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library/tree/master/pg_terminate_backend_log_to_table">SQL запрос</a>, который предотвращает сбои БД из-за ошибок клиентов БД<!-- (по таймауту терминирует запросы, образующие очередь)--> (2022 г.)</li>
 									<li>Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library/tree/master/DDL_log_to_table">журналирование DDL команд</a> в таблицу БД (c 2022-11 по н.в.)</li>
 									<li>Сделал ПО для автоматического детектирования и обезличивания персональных данных в тестовой БД 
-										[<a href="https://raw.githubusercontent.com/rin-nas/cv/gh-pages/files/rabota.ru/%F0%9F%8E%AD%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BE%D0%B1%D0%B5%D0%B7%D0%BB%D0%B8%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%94%20%D0%B2%20PostgreSQL.eml" download>документация</a>] (PL/pgSQL, psql, Bash, c 2021-09 по н.в.)</li>
+										[<a href="https://raw.githubusercontent.com/rin-nas/cv/gh-pages/files/rabota.ru/%F0%9F%8E%AD%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BE%D0%B1%D0%B5%D0%B7%D0%BB%D0%B8%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%94%20%D0%B2%20PostgreSQL.eml" download title="Смотреть в Mozilla Thunderbird">документация</a>] (PL/pgSQL, psql, Bash, c 2021-09 по н.в.)</li>
 									<!--<li>TODO Заменил использование устаревшего dblink на современный <a href="https://postgrespro.ru/docs/postgresql/14/postgres-fdw">FDW</a></li>-->
 								</ol>
 							</li>
@@ -589,26 +588,27 @@
 										<span class="text-nowrap">200+ новых,</span> <span class="text-nowrap">7800+ правок,</span> <span class="text-nowrap">750+ комментариев.</span>
 									</li>
 									<li>Совместно с <abbr title="Департамент Корпоративной Архитектуры">ДКА</abbr> Сбербанка сделал первую архитектурную схему Работа.Ру (2019 г.)</li>
-									<li>Прошёл корпоративное <a href="http://betterlife.company/">обучение-тренинг по Scrum и Kanban</a> (4 дня, 2021-10)</li>
+									<li>Прошёл корпоративное <a href="https://betterlife.company/">обучение-тренинг по Scrum и Kanban</a> (4 дня, 2021-10)</li>
 									<li>Участвовал в поиске сотрудника на вакансию «PostgreSQL Application DBA».
 										Сделал техническое описание вакансии.
-										Знакомился с предложенными резюме в <a href="https://sberpodbor.ru/">СберПодборе</a>.
+										Знакомился с предложенными рекрутером резюме в <a href="https://sberpodbor.ru/">СберПодборе</a>.
 										Подготовил вопросы для интервью.
-										Собеседовал кандидатов с коллегами. Дал обратную связь (2023)
+										Собеседовал кандидатов с коллегами, дал обратную связь.
+										Сейчас являюсь наставником для нового сотрудника. (2023)
 									</li>
-									<li>Выступил на внутреннем митапе с докладом «Полезные инструменты разработчика приложений для PostgreSQL» (2023)</li>
+									<li>Выступил на внутреннем митапе с докладом «Полезные инструменты разработчика приложений для PostgreSQL» (2023-06)</li>
 								</ol>
 						</ol>
 						<h4>Достижения личные</h4>
 						<ol>
 							<li>
-								Сделал <a href="//github.com/rin-nas/postgresql-patterns-library">коллекцию готовых SQL запросов для PostgreSQL</a> по часто возникающим задачам
+								Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library">коллекцию готовых SQL запросов для PostgreSQL</a> по часто возникающим задачам
 								<iframe src="https://ghbtns.com/github-btn.html?user=rin-nas&amp;repo=postgresql-patterns-library&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 							</li>
-							<li>Сделал <a href="//github.com/rin-nas/regexp-patterns-library">коллекцию готовых регулярных выражений</a> по валидации данных и захвату подстрок</li>
-							<li>Сделал <a href="//github.com/rin-nas/sql-template-engine">SQL шаблонизатор</a> — инструмент, облегчающий конструирование SQL запросов</li>
+							<li>Сделал <a href="https://github.com/rin-nas/regexp-patterns-library">коллекцию готовых регулярных выражений</a> по валидации данных и захвату подстрок</li>
+							<li>Сделал <a href="https://github.com/rin-nas/sql-template-engine">SQL шаблонизатор</a> — инструмент, облегчающий конструирование SQL запросов</li>
 							<li>Дошёл до финала в корпоративной викторине <!--квесте--> для программистов, <span class="text-nowrap">9-е</span> место по скорости прохождения (2020-12)</li>
-							<li class="hidden">Написал статью по гибким методологиям разработки: <a href="//github.com/rin-nas/agile-work-flow/blob/master/agile_scrum_focus_factor.md">фокус-фактор в Скраме</a></li>
+							<li class="hidden">Написал статью по гибким методологиям разработки: <a href="https://github.com/rin-nas/agile-work-flow/blob/master/agile_scrum_focus_factor.md">фокус-фактор в Скраме</a></li>
 						</ol>
 					</li>
 					<li class="list-group-item">
