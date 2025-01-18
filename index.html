@@ -223,7 +223,8 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Опыт работы <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="#rdv">2017-04 — н.время. <strong>Работа.Ру</strong>, ведущий программист-аналитик</a></li>
+								<li><a href="#cpl">2024-01 — н.время. <strong>СберСпасибо</strong>, администратор СУБД (DBA)</a></li>
+								<li><a href="#rdv">2017-04 — 2023-12. <strong>Работа.Ру</strong>, ведущий программист-аналитик</a></li>
 								<li><a href="#sbt">2016-07 — 2017-03. <strong>Сбербанк-Технологии</strong>, старший системный аналитик</a></li>
 								<li><a href="#krawlly">2015-11 — 2016-06. <strong>Кроулли</strong>, системный аналитик</a></li>
 								<li class="divider"></li>
@@ -426,7 +427,9 @@
 
 					GIT, Mercurial;
 
-					NodeJS, PhantomJS, Nginx, Apache, PgBouncer, PostgreSQL, MySQL, ClickHouse, Sphinx, Memcached;
+					NodeJS, Nginx, Apache, HAProxy;
+					
+					Etcd, Keepalived, Patroni, PgBouncer, PostgreSQL, MySQL, ClickHouse, Sphinx, Memcached;
 
 					В меньшей степени — <abbr title="Data WareHouse">DWH</abbr>, RabbitMQ, MSSQL, SQLite, MongoDB; Python, Java, C#, Pascal, Deplhi;
 				</li>
@@ -441,6 +444,90 @@
 
 			<h2 id="history" title="Я горжусь тем, что сделал, но ещё большие достижения будут впереди!"><span class="glyphicon glyphicon-time"></span>Опыт работы</h2>
 
+			<div id="cpl" class="panel panel-default">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+							<div class="row">
+								<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 work-position">
+									<h3 class="panel-title">Администратор СУБД (DBA)</h3>
+								</div>
+								<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 work-company">
+									<span title="Москва, улица Поклонная, дом 3. Метро «Кутузовская»">
+										<a href="https://spasibosberbank.ru/"><strong>СберСпасибо</strong></a>, 
+										<a href="https://yandex.ru/maps/213/moscow/house/poklonnaya_ulitsa_3/Z04YcwRjSEwDQFtvfXtyd31kbQ==/?ll=37.533247%2C55.736393&z=17.2">Москва</a>
+									</span>
+									<span class="work-company-extra">(500+ человек)</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 work-period">
+							<span class="period"><div class="label label-default">01.2024 — н.время</div></span>
+						</div>
+					</div>
+				</div>
+				<div class="panel-body">
+					<p>
+						<a href="https://mytishchi.hh.ru/employer/4315301" class="text-nowrap">«СберСпасибо»</a> — программа лояльности <a href="https://www.sberbank.ru/">Сбербанка</a>.
+						Каждый квартал в компании проводится оценка эффективности сотрудников <span class="text-nowrap">(performance review).</span>
+					</p>
+					<p>
+						<strong>Инструментарий:</strong>
+						RHEL, Windows;
+						<span class="text-nowrap">Confluence, Jira;</span>
+						Outlook, Zabbix;
+						PostgreSQL, PgBouncer, Patroni, Etcd, HAProxy, Keepalived, systemd;
+					</p>
+					<div class="extra">
+					</div>
+				</div>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<h4>Обязанности <button type="button" class="extra-toggler btn btn-default btn-xs hidden-print">показать/скрыть</button></h4>
+						<ul class="extra">
+							<li>TODO</li>
+						</ul>
+					</li>
+					<li class="list-group-item">
+						<p><mark>Синергия программирования и системной аналитики помогает мне эффективно решать сложные задачи.</mark></p>
+						<h4>Достижения по работе</h4>
+						<p>
+							За 2024 год:
+							<ol>
+								<li>Выполнил комплекс работ по двум существующим СУБД, чтобы они соответствовали требованиям безопасности, надёжности и производительности.</li>
+								<li>Для СУБД АС УБК минимизировал инциденты, перевёз СУБД на новый отказоустойчивый кластер высокой доступности в 2-х ЦОД, организовал работы по обновлению ядра ОС (устранение уязвимостей).</li>
+								<li>Перевёз СУБД АС Фродмониторинг с ОС CentOS на RHEL (6 серверов, 118 TБ данных), выявил и удалил «мусор» в индексах и таблицах.</li>
+								<li>Инсталлировал и настроил 10 новых отказоустойчивых кластеров СУБД в промышленных и тестовых (<abbr title="Приёмо-сдаточные испытания">ПСИ</abbr>, <abbr title="Нагрузочное тестирование">НТ</abbr>, <abbr title="Интеграционно-функциональное тестирование">ИФТ</abbr>) средах.</li>
+								<li>Автоматизировал инсталляцию и настройку HA/DR PostgreSQL (bash скрипты).</li>
+								<li>Уменьшил техдолг СУБД АС РСК ещё на этапе проектирования: сделал аудит схемы СУБД (DDL запросов), по итогам замечаний DBA исправлены ошибки и сделаны улучшения.</li>
+								<li>Для СУБД АС МП Легаси выявил и удалил «мусор» в индексах и таблицах. После этого СУБД стала занимать в 2 раза меньше места, быстрее работать и бэкапиться.</li>
+								<li>Создал в Confluence документацию и базу знаний по АС и СУБД PostgreSQL для DBA. Поддерживаю в актуальном состоянии.</li>
+								<li>Совместно с командами сопровождения АС участвовал в поиске и устранении причин инцидентов в АС.</li>
+								<li>Все задачи были выполнены вовремя, а учения на проме прошли успешно.</li>
+								<li>Собеседовал кандидатов на должность DBA PostgreSQL совместно с коллегами. Являюсь наставником для новых коллег DBA.</li>
+							</ol>
+						</p>
+						<h4>Достижения личные</h4>
+						<ol>
+							<li>Изучил новое ПО: Patroni, Etcd, HAProxy, Keepalived, systemd</li>
+							<li>Организовал еженедельные встречи команды DBA для обмена опытом, решения технических и огранизационных вопросов</li>
+							<li>Получил повышенную оценку «B» за итоги работы 2024 года</li>
+							<li>Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library/tree/master/psqlrc">цветное приглашение командной строки в psql</a></li>
+							<li>Сделал <a href="https://github.com/rin-nas/postgresql-patterns-library/tree/master/bashrc">цветное приглашение командной строки в bash</a></li>
+						</ol>
+					</li>
+					<li class="list-group-item">
+						<h4>Отзыв</h4>
+						<p><a href="mailto:avivanov@spasibosb.ru">Иванов Александр</a><!--tg: @dbms_lead-->, лидер компетенций СУБД, отдел опеспечения надёжности: (2024-07)<br>
+							«Ринат качественно закрывает задачи по администрированию СУБД PostgreSQL.
+							Занимает проактивную позицию в рамках своей зоны ответственности, выступает с предложениями по улучшению стандартов надёжности.
+							Поддерживает и развивает пространство команды DBA PostgreSQL для передачи знаний внутри команды.
+							Документирует кейсы учений и инциденты.
+							Проактивно предлагает способы убрать узкие места в АС/ФП».</p>
+					</li>
+				</ul>
+			</div>
+			
 			<div id="rdv" class="panel panel-default">
 				<div class="panel-heading">
 					<div class="row">
@@ -460,7 +547,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 work-period">
-							<span class="period"><div class="label label-default">04.2017 — н.время</div></span>
+							<span class="period">6 лет 8 мес.<div class="label label-default">04.2017 — 12.2023</div></span>
 						</div>
 					</div>
 				</div>
@@ -503,11 +590,11 @@
 
 						<h5><abbr title="База данных">БД</abbr> PostgreSQL, рутинные регулярные задачи:</h5>
 						<ol>
-							<li>Инспектирую (проверяю) код SQL миграций БД и частично PHP код, написанный другими разработчиками <span class="text-nowrap">(с 2019-06 по н.в.)</span></li>
-							<li>Накатываю ручные миграции в производственную БД <span class="text-nowrap">(с 2018 г. по н.в.)</span></li>
-							<li>Помогаю разработчикам создавать и оптимизировать (ускорять) SQL запросы любой сложности <span class="text-nowrap">(с 2018 г. по н.в.)</span></li>
-							<li>Решаю проблемы в БД: очереди SQL запросов, всплески ошибок и нагрузок, отставание реплики и др. <span class="text-nowrap">(с 2018 г. по н.в.)</span></li>
-							<li>Делаю периодический аудит БД, выявляю и уменьшаю техдолг (ставлю задачи на себя и коллег):
+							<li>Инспектировал (проверял) код SQL миграций БД и частично PHP код, написанный другими разработчиками <span class="text-nowrap">(с 2019-06 по н.в.)</span></li>
+							<li>Накатывал ручные миграции в производственную БД <span class="text-nowrap">(с 2018 г. по н.в.)</span></li>
+							<li>Помогал разработчикам создавать и оптимизировать (ускорять) SQL запросы любой сложности <span class="text-nowrap">(с 2018 г. по н.в.)</span></li>
+							<li>Решал проблемы в БД: очереди SQL запросов, всплески ошибок и нагрузок, отставание реплики и др. <span class="text-nowrap">(с 2018 г. по н.в.)</span></li>
+							<li>Делал периодический аудит БД, выявлял и уменьшаю техдолг (ставил задачи на себя и коллег):
 								анализ журнала ошибок, ресурсоёмкие запросы и функции,
 								неэффективный вакуум с «распуханием» таблиц,
 								огромные временные таблицы во время выполнения запросов,
@@ -517,7 +604,7 @@
 						</ol>
 					</li>
 					<li class="list-group-item">
-						<p><mark>Синергия программирования и системной аналитики помогает мне эффективно решать сложные задачи.</mark></p>
+						<p><mark>Синергия программирования и системной аналитики помогала мне эффективно решать сложные задачи.</mark></p>
 						<h4>Достижения по работе</h4>
 						<ol>
 							<li>Разработка ПО:
@@ -602,6 +689,7 @@
 										<span class="text-nowrap">7800+ правок,</span>
 										<span class="text-nowrap">750+ комментариев.</span>
 
+										<!--
 										<div>
 											<button type="button" class="extra-toggler btn btn-default btn-xs hidden-print">показать пример иерархии раздела «🐘 База данных PostgreSQL»</button>
 										</div>
@@ -683,7 +771,7 @@
 											</li>
 											<li>🌴 График работы и отпусков DBA</li>
 										</ul>
-
+										-->
 									</li>
 									<li>Сделал первую архитектурную схему <span class="text-nowrap">«Работа.Ру»</span> совместно с <abbr title="Департамент Корпоративной Архитектуры">ДКА</abbr> Сбербанка <span class="text-nowrap">(2019 г.)</span></li>
 									<li>Прошёл корпоративное <a href="https://betterlife.company/">обучение-тренинг по Scrum и Kanban</a> <span class="text-nowrap">(4 дня, 2021-10)</span></li>
@@ -1113,7 +1201,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 work-period">
-							<span class="period">11 мес.<div class="label label-default">12.2014 — 10.2015</div></span>
+							<span class="period">11 месяцев<div class="label label-default">12.2014 — 10.2015</div></span>
 						</div>
 					</div>
 				</div>
