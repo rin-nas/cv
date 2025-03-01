@@ -1,3 +1,3 @@
-# Rinat Mukhtarov's CV
+# CV
 
 **https://rin-nas.github.io/cv/**
