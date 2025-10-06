@@ -26,3 +26,6 @@ https://jsonresume.org/schema/
 1. [Доверяй, но проверяй: когда отзывы бывших сотрудников не помогут устроиться в хорошую компанию](https://vc.ru/rabota-ru/407434-doveryay-no-proveryay-kogda-otzyvy-byvshih-sotrudnikov-ne-pomogut-ustroitsya-v-horoshuyu-kompaniyu)
 1. [Чем отличается поиск работы за границей и в России](https://prosto.rabota.ru/post/poisk-raboty-u-nih-i-u-nas/)
 1. [Самопрезентация](https://prosto.rabota.ru/post/samoprezentaciya/?variant=3690)
+1. [Какие вопросы задать работодателю на собеседовании?](https://habr.com/ru/post/655631/)
+1. [Стоп-слова на собеседовании](https://www.rabota.ru/articles/career/stop-slova-na-sobesedovanii-5628)
+1. https://github.com/NikolayS/interview-questions/blob/master/general.md
